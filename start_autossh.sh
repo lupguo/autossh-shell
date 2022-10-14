@@ -30,7 +30,7 @@ for portMap in ${portMaps[@]}; do
 done
 
 # echo start shell & start shell
-startSH="autossh -f -M0 $localStr $RemoteAddress -p $RemotePort-N"
+startSH="autossh -f -M0 $localStr $RemoteAddress -p $RemotePort -N"
 echo $startSH
 $startSH
 
